@@ -1,4 +1,4 @@
-package thread.race.condition.non.atomic.operation;
+package thread.race.condition.solution.method;
 
 public class InventoryCounter {
 
@@ -8,11 +8,11 @@ public class InventoryCounter {
 		return items;
 	}
 
-	public void increment() {
+	public synchronized void increment() {
 		items++;
 	}
 
-	public void decrement() {
+	public synchronized void decrement() {
 		items--;
 	}
 

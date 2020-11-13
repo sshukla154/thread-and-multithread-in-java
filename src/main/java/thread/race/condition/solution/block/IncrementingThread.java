@@ -1,4 +1,4 @@
-package thread.race.condition.non.atomic.operation;
+package thread.race.condition.solution.block;
 
 public class IncrementingThread extends Thread {
 

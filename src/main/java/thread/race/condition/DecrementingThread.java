@@ -1,4 +1,4 @@
-package thread.race.condition.non.atomic.operation;
+package thread.race.condition;
 
 public class DecrementingThread extends Thread {
 
