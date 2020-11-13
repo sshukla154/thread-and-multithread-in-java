@@ -1,4 +1,4 @@
-package performance.thtoughput;
+package performance.thoughput;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -12,7 +12,7 @@ import com.sun.net.httpserver.HttpServer;
 public class ThroughputHttpServer {
 
 	private static final String INPUT_FILE = "src/main/resources/performance-thoughtput/war_and_peace.txt";
-	private static final int NUMBER_OF_THREADS = 1;
+	private static final int NUMBER_OF_THREADS = 2;
 
 	public static void main(String[] args) throws IOException {
 

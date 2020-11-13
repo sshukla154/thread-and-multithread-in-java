@@ -1,4 +1,4 @@
-package performance.thtoughput;
+package performance.thoughput;
 
 import java.io.IOException;
 import java.io.OutputStream;
